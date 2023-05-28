@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <style>
+    .container {
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+      min-height: 100vh;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <img src="{{ url_for('static', filename='images/mg.jpg') }}" style="width:200px; height: 200px; border-radius: 100%;">
+        <h2 class="fw-normal">Mayur Gowda</h2>
+        <p style="visibility: hidden;">And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{{ url_for('static', filename='images/mp.jpg') }}" style="width:200px; height: 200px; border-radius: 100%;">
+        <h2 class="fw-normal">Manohar P</h2>
+        <p style="visibility: hidden;">And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+      <img src="{{ url_for('static', filename='images/ly.jpg') }}" style="width:200px; height: 200px; border-radius: 100%;">
+        <h2 class="fw-normal">Lakshmish Y</h2>
+        <p style="visibility: hidden;">And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+body {
+    background-image: url("/static/images/stockBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mid-section {
+    height: 100vh;
+    padding: 15px 0 0 0;
+}
+
+.mid-section h1 {
+    color: white !important;
+    line-height: 1.2 !important;
+    padding: 10px 0 20px 0 !important;
+}
+
+.mid-section p {
+    color: white !important;
+    line-height: 1.3 !important;
+    padding: 10px 0 20px 0 !important;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+.hero{
+    text-align: center;
+}
+

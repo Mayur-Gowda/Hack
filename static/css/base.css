@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+#header {
+    width: 100vh;
+}
+
+.navbar {
+    padding: 20px 15px 0 8px;
+}
+
+.navbar a, span {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+.navbar-toggler-icon::before {
+  font-family: FontAwesome;
+  content: "\f0c9"; /* fa-bars, fa-navicon */
+}
+
+.offcanvas {
+    opacity: 90%;
+    background-color: #393646;
+    color: black;
+    width: 20% !important;
+}
+
+.offcanvas-header, .offcanvas-body li {
+    color: white;
+}
+
+
+.navbar a:hover {
+    color: grey;
+}
+
+.modal {
+    color: #393646;
+}
